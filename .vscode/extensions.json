@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "eg2.tslint",
+    "PKief.material-icon-theme",
+    "vscodevim.vim",
+    "WallabyJs.quokka-vscode"
+  ]
+}

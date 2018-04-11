@@ -1,0 +1,38 @@
+{
+  // indent using two spaces
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+
+  // draw a margin to encourage writing shorter lines
+  "editor.rulers": [ 80 ],
+
+  // indicate vim mode via the shape of the cursor
+  "vim.showmodename": false,
+  "vim.cursorStylePerMode": {
+    "normal": "block",
+    "insert": "line",
+    "visual": "line",
+    "visualline": "line",
+    "visualblock": "line"
+  },
+
+  // start vim in normal, I-just-want-to-enter-text mode
+  "vim.startInInsertMode": true,
+
+  // indicate style issues with a green squiggly
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+
+  // set the editor font and use fancy symbols (e.g. =>)
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+
+  // show pretty icons in the file explorer
+  "workbench.iconTheme": "material-icon-theme",
+
+  // stop the cursor from blinking and eating up battery
+  "editor.cursorBlinking": "solid",
+
+  // simplify the column down the right-hand side
+  "editor.minimap.enabled": false
+}
